@@ -1,0 +1,113 @@
+{
+  "flashcards": [
+    {
+      "id": "nwv3hocq",
+      "question": "What is the difference between JDK, JRE, and JVM in Java?",
+      "answer": "JVM runs Java bytecode. JRE = JVM + core libraries needed to run programs. JDK = JRE + development tools (compiler, debugger).",
+      "category": "Programming",
+      "difficulty": "Medium",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "fh1xqlas",
+      "question": "What is the time complexity of binary search?",
+      "answer": "O(log n) — the search space is halved each step. Requires a sorted array.",
+      "category": "Data Structures",
+      "difficulty": "Easy",
+      "favorite": true,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "frkukgsu",
+      "question": "Difference between a stack and a queue?",
+      "answer": "Stack is LIFO (Last In First Out), typical ops push/pop. Queue is FIFO (First In First Out), typical ops enqueue/dequeue.",
+      "category": "Data Structures",
+      "difficulty": "Easy",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "b3lr6e9n",
+      "question": "What does the <meta viewport> tag do in HTML?",
+      "answer": "It controls the viewport's size and scale on mobile devices, essential for responsive design.",
+      "category": "HTML",
+      "difficulty": "Easy",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "raokk8fn",
+      "question": "Explain the CSS box model.",
+      "answer": "Every element is a box made of content, padding, border, and margin. Total width = content + padding + border (with box-sizing: border-box).",
+      "category": "CSS",
+      "difficulty": "Medium",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "z8f5sjo4",
+      "question": "Difference between == and === in JavaScript?",
+      "answer": "== compares values after type coercion. === compares both value and type without coercion. Prefer === to avoid subtle bugs.",
+      "category": "JavaScript",
+      "difficulty": "Easy",
+      "favorite": true,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "1xp4i83g",
+      "question": "What is a closure in JavaScript?",
+      "answer": "A function that remembers variables from its lexical scope even when executed outside that scope.",
+      "category": "JavaScript",
+      "difficulty": "Medium",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "l0a26wl9",
+      "question": "What are the OSI model's 7 layers?",
+      "answer": "Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+      "category": "Computer Networks",
+      "difficulty": "Medium",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "c7eovtef",
+      "question": "TCP vs UDP?",
+      "answer": "TCP is connection-oriented, reliable, ordered (web, email). UDP is connectionless, faster, no delivery guarantee (video, DNS, games).",
+      "category": "Computer Networks",
+      "difficulty": "Medium",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "df508t3h",
+      "question": "What is a hash table and its average lookup complexity?",
+      "answer": "A data structure mapping keys to values using a hash function. Average lookup is O(1); worst case O(n) with many collisions.",
+      "category": "Data Structures",
+      "difficulty": "Hard",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "on6jfp7x",
+      "question": "What is method overloading vs overriding in Java?",
+      "answer": "Overloading: same method name, different parameters, resolved at compile time. Overriding: subclass redefines a superclass method, resolved at runtime.",
+      "category": "Programming",
+      "difficulty": "Medium",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    },
+    {
+      "id": "9zg67zug",
+      "question": "What is the difference between GET and POST requests?",
+      "answer": "GET requests data (params in URL, cacheable, idempotent). POST submits data (body, not cached, can change server state).",
+      "category": "Computer Networks",
+      "difficulty": "Easy",
+      "favorite": false,
+      "createdAt": "2026-07-02T05:04:25.913Z"
+    }
+  ],
+  "exportedAt": "2026-07-02T05:20:12.675Z"
+}
